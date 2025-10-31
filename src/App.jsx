@@ -3,7 +3,7 @@ import Home from './Components/Home/Home.jsx'
 
 export default function App() {
   return (
-    <div className='bg-white h-screen'>
+    <div >
       <Navbar />
       <Home />
     </div>
