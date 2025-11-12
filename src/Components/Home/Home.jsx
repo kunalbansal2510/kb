@@ -55,7 +55,7 @@ export default function Home() {
             <div className="relative group">
               <div className="w-80 h-80 bg-gradient-to-br from-blue-500 via-purple-600 to-indigo-700 rounded-full overflow-hidden shadow-2xl relative z-10 transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-2xl">
                 <img
-                  src="./img.jpg.jpg" 
+                  src="https://res.cloudinary.com/dk3vuqnrr/image/upload/v1758795276/samples/look-up.jpg" 
                   alt="Profile"
                   className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110"
                 />

@@ -123,12 +123,12 @@ export default function Navbar() {
                     <div className='hidden lg:flex gap-6 items-center backdrop-blur-md px-8 py-3 rounded-full border border-white/20 shadow-lg bg-white/50'>
                         {/* Download Resume Button */}
                         <button className='group relative flex items-center gap-3 text-lg font-medium px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 text-white hover:shadow-2xl hover:shadow-purple-500/40 transition-all duration-300 hover:scale-105 active:scale-95 overflow-hidden'>
-                            <div className='absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+                            <div className='absolute inset-0 bg-linear-to-r from-purple-500 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
                             <Download className="w-5 h-5 relative z-10 transform group-hover:scale-110 transition-transform duration-300" />
                             <span className='relative z-10'>Download Resume</span>
                             
                             {/* Shine effect */}
-                            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -skew-x-12 transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
+                            <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/30 to-transparent -skew-x-12 transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
                         </button>
                         
                         {/* Social Icons */}
